@@ -16,17 +16,21 @@
 
 <style>
 	header {
+		font-size: 1.5rem;
 		width: 100%;
-		padding: 24px 12px;
 		background-color: var(--cor-70);
 	}
 	.container {
 		width: 100%;
 		max-width: 1440px;
+		padding: 12px 24px;
 		margin: auto;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+	}
+	p {
+		font-weight: 600;
 	}
 	ul {
 		display: flex;

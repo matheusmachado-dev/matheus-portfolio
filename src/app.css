@@ -1,4 +1,6 @@
 :root {
+	font-size: 16px;
+
 	/* Paleta de Cores */
 	--cor-00: #fff;
 	--cor-10: #c8cbe0;
@@ -10,7 +12,7 @@
 	--cor-100: #000;
 
 	--body-background: var(--cor-100);
-	--body-font-family-color: var(--cor-10);
+	--body-font-color: var(--cor-10);
 }
 
 /* CSS Reset */
@@ -22,9 +24,10 @@
 
 /* Estilos Globais */
 body {
+	font-size: 1rem;
 	font-family: 'Poppins', sans-serif;
 	background-color: var(--body-background);
-	color: var(--body-font-family-color);
+	color: var(--body-font-color);
 	line-height: 1.6;
 }
 
