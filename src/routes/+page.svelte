@@ -39,6 +39,7 @@
 		min-width: 250px;
 		aspect-ratio: 1 /1;
 		border-radius: 50%;
+		border: 1px solid var(--cor-10);
 		overflow: hidden;
 	}
 	.imgHero {

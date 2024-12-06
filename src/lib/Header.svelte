@@ -28,6 +28,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		align-items: center;
 	}
 	p {
 		font-weight: 600;
