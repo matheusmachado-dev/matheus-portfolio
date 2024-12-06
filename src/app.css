@@ -1,0 +1,44 @@
+:root {
+	/* Paleta de Cores */
+	--cor-00: #fff;
+	--cor-10: #c8cbe0;
+	--cor-30: #878db6;
+	--cor-50: #50578b;
+	--cor-70: #282e61;
+	--cor-80: #0d1236;
+	--cor-90: #040933;
+	--cor-100: #000;
+
+	--body-background: var(--cor-100);
+	--body-font-family-color: var(--cor-10);
+}
+
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--body-background);
+	color: var(--body-font-family-color);
+	line-height: 1.6;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
