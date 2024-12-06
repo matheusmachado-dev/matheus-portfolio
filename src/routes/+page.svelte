@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section id="heroSection">
+<section id="hero-section">
 	<div class="containerImg">
 		<img src="/matheusMachado.jpg" alt="Foto de Matheus Machado de Camargo" class="imgHero" />
 	</div>
@@ -15,25 +15,71 @@
 		</p>
 	</div>
 </section>
+<section class="skills-section">
+	<h2>Meus Conhecimentos</h2>
+	<h3>Web</h3>
+	<div class="container-skills">
+		<div class="container-skills-list">
+			<p>Front-End</p>
+			<ul>
+				<li>HTML5, CS3</li>
+				<li>JavaScript ES6</li>
+				<li>Svelte/SvelteKit</li>
+				<li>React</li>
+				<li>Next.js</li>
+			</ul>
+		</div>
+		<div class="container-skills-list">
+			<p>Back-End</p>
+			<ul>
+				<li>Node.js</li>
+				<li>MySQL</li>
+				<li>PostregeSQL</li>
+				<li>Rest API</li>
+				<li>Next.js</li>
+			</ul>
+		</div>
+		<div class="container-skills-list">
+			<p>Testes Automatizados</p>
+			<ul>
+				<li>Jest</li>
+				<li>Cypress</li>
+			</ul>
+		</div>
+	</div>
+	<h3>Outros</h3>
+	<div class="container-skills">
+		<div class="container-skills-list">
+			<p>Infraestrutura</p>
+			<ul>
+				<li>Docker</li>
+			</ul>
+		</div>
+		<div class="container-skills-list">
+			<p>Versionamento</p>
+			<ul>
+				<li>Git</li>
+				<li>GitHub</li>
+			</ul>
+		</div>
+	</div>
+</section>
 
 <style>
-	#heroSection {
+	section {
 		width: 100%;
 		max-width: 1440px;
 		margin: auto;
-		display: flex;
 		padding: 24px;
+	}
+	#hero-section {
 		display: flex;
 		flex-direction: row;
 		gap: 64px;
 		justify-content: space-between;
 		align-items: center;
 	}
-	@media (max-width: 600px) {
-		#heroSection {
-			flex-direction: column;
-		}
-	}
+
 	.containerImg {
 		width: 40vw;
 		min-width: 250px;
@@ -58,5 +104,40 @@
 	}
 	.subtitle.last {
 		margin-bottom: 32px;
+	}
+
+	h2 {
+		font-size: 2rem;
+		font-weight: 500;
+		color: var(--cor-50);
+	}
+	h3 {
+		margin-top: 12px;
+		margin-bottom: 12px;
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+	.container-skills {
+		display: flex;
+		flex-direction: row;
+		gap: 32px;
+	}
+	.container-skills-list {
+		border: 1px solid var(--cor-10);
+		border-radius: 12px;
+		padding: 12px;
+	}
+	ul li {
+		list-style: inside;
+	}
+
+	@media (max-width: 600px) {
+		#hero-section {
+			flex-direction: column;
+		}
+		.container-skills {
+			flex-wrap: wrap;
+			gap: 16px;
+		}
 	}
 </style>
