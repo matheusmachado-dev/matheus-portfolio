@@ -6,9 +6,9 @@
 		<p>Matheus Machado de Camargo</p>
 		<nav>
 			<ul>
-				<li><a href="#inicio">Início</a></li>
-				<li><a href="#portfolio">Portfólio</a></li>
-				<li><a href="#contato">Contato</a></li>
+				<li><a href="#top">Início</a></li>
+				<li><a href="#top">Portfólio</a></li>
+				<li><a href="#top">Contato</a></li>
 			</ul>
 		</nav>
 	</div>
