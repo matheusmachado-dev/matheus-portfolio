@@ -29,16 +29,21 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+	@media (max-width: 600px) {
+		#heroSection {
+			flex-direction: column;
+		}
+	}
 	.containerImg {
-		width: 100%;
-		max-width: 475px;
-		height: 100%;
+		width: 40vw;
+		min-width: 250px;
+		aspect-ratio: 1 /1;
+		border-radius: 50%;
+		overflow: hidden;
 	}
 	.imgHero {
-		width: 475px;
-		height: 475px;
-		overflow: hidden;
-		border-radius: 50%;
+		width: 100%;
+		height: 100%;
 		object-fit: cover;
 	}
 	h1 {

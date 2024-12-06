@@ -31,10 +31,16 @@
 	}
 	p {
 		font-weight: 600;
+		max-width: 50%;
 	}
 	ul {
 		display: flex;
 		flex-direction: row;
 		gap: 24px;
+	}
+	@media (max-width: 600px) {
+		ul {
+			flex-direction: column;
+		}
 	}
 </style>
