@@ -3,7 +3,7 @@
 
 <section id="hero-section">
 	<div class="containerImg">
-		<img src="/matheusMachado.jpg" alt="Foto de Matheus Machado de Camargo" class="imgHero" />
+		<img src="/matheusMachado.webp" alt="Foto de Matheus Machado de Camargo" class="imgHero" />
 	</div>
 	<div>
 		<h1>Matheus Machado de Camargo</h1>
@@ -15,7 +15,7 @@
 		</p>
 	</div>
 </section>
-<section class="skills-section">
+<section id="skills-section">
 	<h2>Meus Conhecimentos</h2>
 	<h3>Web</h3>
 	<div class="container-skills">
@@ -62,6 +62,31 @@
 				<li>GitHub</li>
 			</ul>
 		</div>
+	</div>
+</section>
+<section id="portfolio-section">
+	<h2>Portfólio</h2>
+	<div class="portfolio-container">
+		<a href="https://matheusmachado.blog.br" class="card">
+			<div class="card-image">
+				<img
+					src="/clonetabnews.webp"
+					alt="Screenshot da pagina do site matheusmachado.blog"
+					loading="lazy"
+				/>
+			</div>
+			<h3>Clone TabNews</h3>
+			<ul>
+				<li>next.js</li>
+				<li>front-end</li>
+				<li>back-end</li>
+				<li>curso.dev</li>
+			</ul>
+			<p class="card-description">
+				projeto feito durante o curso.dev onde desenvolvi um clone do tabnews.com.br. Uma aplicação
+				robusta e real.
+			</p>
+		</a>
 	</div>
 </section>
 
@@ -112,8 +137,6 @@
 		color: var(--cor-50);
 	}
 	h3 {
-		margin-top: 12px;
-		margin-bottom: 12px;
 		font-size: 1.5rem;
 		font-weight: 400;
 	}
@@ -121,6 +144,7 @@
 		display: flex;
 		flex-direction: row;
 		gap: 32px;
+		margin-bottom: 1rem;
 	}
 	.container-skills-list {
 		border: 1px solid var(--cor-10);
@@ -139,5 +163,30 @@
 			flex-wrap: wrap;
 			gap: 16px;
 		}
+	}
+
+	.card {
+		width: 100%;
+		max-width: 350px;
+		padding: 12px;
+		border: 1px solid var(--cor-10);
+		border-radius: 12px;
+		display: flex;
+		flex-direction: column;
+	}
+	.card h3 {
+		font-weight: 500;
+	}
+	.card ul {
+		display: flex;
+		gap: 12px;
+		margin-bottom: 12px;
+		font-weight: 200;
+	}
+	.card ul li {
+		list-style: none;
+	}
+	.card-image img {
+		width: 320px;
 	}
 </style>
