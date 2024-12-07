@@ -89,7 +89,7 @@
 		</a>
 	</div>
 </section>
-<section class="contact-section">
+<section id="contact-section">
 	<h2>Contato</h2>
 	<div class="container-contact">
 		<ul class="contact-list">

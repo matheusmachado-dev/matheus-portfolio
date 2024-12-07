@@ -7,8 +7,8 @@
 		<nav>
 			<ul>
 				<li><a href="#top">Início</a></li>
-				<li><a href="#top">Portfólio</a></li>
-				<li><a href="#top">Contato</a></li>
+				<li><a href="#portfolio-section">Portfólio</a></li>
+				<li><a href="#contact-section">Contato</a></li>
 			</ul>
 		</nav>
 	</div>
