@@ -197,16 +197,6 @@
 		list-style: inside;
 	}
 
-	@media (max-width: 600px) {
-		#hero-section {
-			flex-direction: column;
-		}
-		.container-skills {
-			flex-wrap: wrap;
-			gap: 16px;
-		}
-	}
-
 	.card {
 		width: 100%;
 		max-width: 350px;
@@ -237,6 +227,7 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+		gap: 32px;
 	}
 	.contact-list {
 		display: flex;
@@ -254,7 +245,7 @@
 	form {
 		width: 100%;
 		max-width: 640px;
-		min-width: 320px;
+		min-width: 220px;
 		display: flex;
 		flex-direction: column;
 		gap: 12px;
@@ -286,5 +277,21 @@
 		font-family: 'Poppins';
 		font-size: 1rem;
 		max-width: 80px;
+	}
+	@media (max-width: 600px) {
+		#hero-section {
+			flex-direction: column;
+		}
+		.container-skills {
+			flex-wrap: wrap;
+			gap: 16px;
+		}
+	}
+	@media (max-width: 750px) {
+		.container-contact {
+			flex-direction: column;
+			gap: 24px;
+			align-items: start;
+		}
 	}
 </style>
