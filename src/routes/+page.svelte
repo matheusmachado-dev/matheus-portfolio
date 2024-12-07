@@ -89,6 +89,48 @@
 		</a>
 	</div>
 </section>
+<section class="contact-section">
+	<h2>Contato</h2>
+	<div class="container-contact">
+		<ul class="contact-list">
+			<li class="contact-item">
+				<a href="mailto:matheusmc.dev@gmail.com">
+					<img src="gmail.svg" alt="icone do gmail" width="24" height="24" />
+					matheusmc.dev@gmail.com
+				</a>
+			</li>
+			<li class="contact-item">
+				<a href="https://github.com/matheusmachado-dev">
+					<img src="github.svg" alt="icone do github" width="24" height="24" />
+					matheusmachado-dev
+				</a>
+			</li>
+			<li class="contact-item">
+				<a href="https://www.linkedin.com/in/matheusmachadodev/">
+					<img src="linkedin.svg" alt="icone do linkedin" width="24" height="24" />
+					matheusmachadodev
+				</a>
+			</li>
+		</ul>
+		<form action="https://formspree.io/f/mqakokqa" method="POST">
+			<p>Envie sua mensagem</p>
+			<input type="hidden" name="_language" value="pt-BR" />
+			<label>
+				Seu nome:
+				<input type="text" name="name" />
+			</label>
+			<label>
+				Seu email:
+				<input type="email" name="email" />
+			</label>
+			<label>
+				Sua mensagem:
+				<textarea name="message"></textarea>
+			</label>
+			<button type="submit">Enviar</button>
+		</form>
+	</div>
+</section>
 
 <style>
 	section {
@@ -188,5 +230,61 @@
 	}
 	.card-image img {
 		width: 320px;
+	}
+
+	.container-contact {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.contact-list {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+	.contact-item {
+		list-style: none;
+	}
+	.contact-item a {
+		display: flex;
+		flex-direction: row;
+		gap: 12px;
+	}
+	form {
+		width: 100%;
+		max-width: 640px;
+		min-width: 320px;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		padding: 12px;
+		background-color: var(--cor-80);
+		border-radius: 12px;
+	}
+	form p {
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+	form label {
+		display: flex;
+		flex-direction: column;
+	}
+	form label input,
+	form label textarea {
+		background-color: var(--cor-70);
+		padding: 12px;
+		color: var(--cor-10);
+		border: none;
+		border-radius: 12px;
+	}
+	form button {
+		border-radius: 12px;
+		padding: 12px;
+		background-color: var(--cor-10);
+		color: var(--cor-90);
+		font-family: 'Poppins';
+		font-size: 1rem;
+		max-width: 80px;
 	}
 </style>
