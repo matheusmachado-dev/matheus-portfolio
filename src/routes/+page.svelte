@@ -67,7 +67,7 @@
 <section id="portfolio-section">
 	<h2>Portfólio</h2>
 	<div class="portfolio-container">
-		<a href="https://matheusmachado.blog.br" class="card">
+		<a href="https://github.com/matheusmachado-dev/clone-tabnews" class="card">
 			<div class="card-image">
 				<img
 					src="/clonetabnews.webp"
